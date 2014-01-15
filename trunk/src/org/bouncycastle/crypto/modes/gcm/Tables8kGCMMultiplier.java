@@ -4,8 +4,15 @@ import org.bouncycastle.crypto.util.Pack;
 
 public class Tables8kGCMMultiplier implements GCMMultiplier
 {
-    private final int[][][] M = new int[32][16][];
+    private final int[][][] M = new int[32][][];
 
+    public Tables8kGCMMultiplier() {
+        // workaround for Windows Phone
+        for(int iter = 0 ; iter < M.length ; iter++) {
+            M[iter] = new int[16][];
+        }
+    }
+    
     public void init(byte[] H)
     {
         M[0][0] = new int[4];
