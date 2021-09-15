@@ -1,0 +1,23 @@
+= Codename One BouncyCastle Library
+
+This is a port of the https://bouncycastle.org/[BouncyCastle] library for https://www.codenameone.com[Codename One]
+
+== Installation
+
+For maven projects, include the following in the `<dependencies>` section of your common/pom.xml file:
+
+[source,xml]
+----
+<dependency>
+    <groupId>com.codenameone</groupId>
+    <artifactId>bouncy-castle-lib</artifactId>
+    <version>1.0</version>
+    <type>pom</type>
+</dependency>
+----
+
+For non-maven projects, you can install through Codename One preferences.
+
+== References
+
+. https://www.codenameone.com[Codename One]
