@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bouncy-castle-android" />
+        <module name="bouncy-castle-tests-javase" />
+        <module name="bouncy-castle-win" />
+        <module name="bouncy-castle-tests-common" />
+        <module name="bouncy-castle-ios" />
+        <module name="bouncy-castle-common" />
+        <module name="bouncy-castle-javase" />
+        <module name="bouncy-castle-javascript" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bouncy-castle" target="8" />
+      <module name="bouncy-castle-android" target="8" />
+      <module name="bouncy-castle-common" target="8" />
+      <module name="bouncy-castle-ios" target="8" />
+      <module name="bouncy-castle-javascript" target="8" />
+      <module name="bouncy-castle-javase" target="1.8" />
+      <module name="bouncy-castle-lib" target="1.8" />
+      <module name="bouncy-castle-tests" target="8" />
+      <module name="bouncy-castle-tests-common" target="8" />
+      <module name="bouncy-castle-tests-javase" target="1.8" />
+      <module name="bouncy-castle-win" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

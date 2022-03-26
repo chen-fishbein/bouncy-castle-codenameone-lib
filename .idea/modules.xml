@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bouncy-castle.iml" filepath="$PROJECT_DIR$/bouncy-castle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/bouncy-castle-android.iml" filepath="$PROJECT_DIR$/android/bouncy-castle-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/bouncy-castle-common.iml" filepath="$PROJECT_DIR$/common/bouncy-castle-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ios/bouncy-castle-ios.iml" filepath="$PROJECT_DIR$/ios/bouncy-castle-ios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javascript/bouncy-castle-javascript.iml" filepath="$PROJECT_DIR$/javascript/bouncy-castle-javascript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/bouncy-castle-javase.iml" filepath="$PROJECT_DIR$/javase/bouncy-castle-javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/bouncy-castle-lib.iml" filepath="$PROJECT_DIR$/lib/bouncy-castle-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/bouncy-castle-tests.iml" filepath="$PROJECT_DIR$/tests/bouncy-castle-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/common/bouncy-castle-tests-common.iml" filepath="$PROJECT_DIR$/tests/common/bouncy-castle-tests-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/javase/bouncy-castle-tests-javase.iml" filepath="$PROJECT_DIR$/tests/javase/bouncy-castle-tests-javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win/bouncy-castle-win.iml" filepath="$PROJECT_DIR$/win/bouncy-castle-win.iml" />
+    </modules>
+  </component>
+</project>
